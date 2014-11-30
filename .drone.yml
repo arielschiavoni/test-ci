@@ -1,0 +1,8 @@
+image: node0.10 # same as bradrydzewski/node:0.10
+git:
+  depth: 1
+cache:
+  - .npm
+script:
+  - npm install
+  - npm test
