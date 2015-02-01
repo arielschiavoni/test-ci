@@ -4,3 +4,9 @@ git:
 script:
   - npm install
   - npm test
+notify:
+  slack:
+    webhook_url: 'https://hooks.slack.com/services/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'
+    on_started: true
+    on_success: true
+    on_failure: true
